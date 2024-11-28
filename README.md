@@ -20,12 +20,12 @@ To be done individually.
 Books
 =====
 
-[x] GET    /api/v1/books              # List all books with pagination
-[x] GET    /api/v1/books/{id}         # Get book details
-[x] POST   /api/v1/books              # Add new book
-[x] PUT    /api/v1/books/{id}         # Update book details
-[x] DELETE /api/v1/books/{id}         # Delete book
-[x] GET    /api/v1/books/search       # Search books by title/author/genre
+-[x] GET    /api/v1/books              # List all books with pagination
+-[x] GET    /api/v1/books/{id}         # Get book details
+-[x] POST   /api/v1/books              # Add new book
+-[x] PUT    /api/v1/books/{id}         # Update book details
+-[x] DELETE /api/v1/books/{id}         # Delete book
+-[x] GET    /api/v1/books/search       # Search books by title/author/genre
 
 
 Reading Lists
