@@ -21,10 +21,15 @@ Books
 =====
 
 GET    /api/v1/books              # List all books with pagination
+
 GET    /api/v1/books/{id}         # Get book details
+
 POST   /api/v1/books              # Add new book
+
 PUT    /api/v1/books/{id}         # Update book details
+
 DELETE /api/v1/books/{id}         # Delete book
+
 GET    /api/v1/books/search       # Search books by title/author/genre
 
 
@@ -32,11 +37,17 @@ Reading Lists
 =============
 
 GET    /api/v1/lists              # Get all reading lists
+
 GET    /api/v1/lists/{id}         # Get specific reading list
+
 POST   /api/v1/lists              # Create new reading list
+
 PUT    /api/v1/lists/{id}         # Update reading list
+
 DELETE /api/v1/lists/{id}         # Delete reading list
+
 POST   /api/v1/lists/{id}/books   # Add book to reading list
+
 DELETE /api/v1/lists/{id}/books   # Remove book from reading list
 
 
@@ -44,8 +55,11 @@ Reviews
 =======
 
 GET    /api/v1/books/{id}/reviews # Get all reviews for a book
+
 POST   /api/v1/books/{id}/reviews # Add new review
+
 PUT    /api/v1/reviews/{id}       # Update review
+
 DELETE /api/v1/reviews/{id}       # Delete review
 
 
@@ -53,7 +67,9 @@ Users
 ======
 
 GET    /api/v1/users/{id}         # Get user profile
+
 GET    /api/v1/users/{id}/lists   # Get user's reading lists
+
 GET    /api/v1/users/{id}/reviews # Get user's reviews
 
 
